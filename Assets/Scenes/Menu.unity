@@ -380,10 +380,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1313,7 +1313,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &870253757
 GameObject:
   m_ObjectHideFlags: 0
@@ -3037,7 +3037,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: b6cbf78a1467d5c47adb35820fbdc7ac, type: 2}
   m_audioClip: {fileID: 8300000, guid: 25f5a163e56e49b4e9fbb44dbad5ad0c, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -3148,6 +3148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35f602e6c55e7c949adf4851d94dd25c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioData: {fileID: 1827711300}
 --- !u!1 &1868070385
 GameObject:
   m_ObjectHideFlags: 0
@@ -3175,7 +3176,7 @@ RectTransform:
   m_GameObject: {fileID: 1868070385}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.14, y: 1.18, z: 1.14625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 109536417}
   m_RootOrder: 0
@@ -3183,7 +3184,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -117, y: -111.960205}
+  m_SizeDelta: {x: -0.00012207, y: -0.00012207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1868070387
 MonoBehaviour:

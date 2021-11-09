@@ -48,3 +48,6 @@ TagManager:
   - name: Player
     uniqueID: 3703507193
     locked: 0
+  - name: Roofs
+    uniqueID: 3697177665
+    locked: 0

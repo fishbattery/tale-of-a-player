@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum PlayerState{
     walk,
@@ -45,6 +46,11 @@ public class PlayerMovement : MonoBehaviour
         }else if (currentState == PlayerState.walk)
         {
             UpdateAnimationAndMove();
+        }
+
+        if(Input.GetButtonDown("escape"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
 

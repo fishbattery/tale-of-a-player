@@ -4,8 +4,17 @@ using UnityEngine;
 
 public class DontDestroyAudio : MonoBehaviour
 {
+    public AudioSource audioData;
+
     void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
+        if(!audioData.isPlaying)
+        {
+            audioData = GetComponent<AudioSource>();
+            audioData.Play(0);
+        }else
+        {
+            
+        }
     }
 }

@@ -13,6 +13,8 @@ public class RoomMove : MonoBehaviour
     public string placeName;
     public GameObject text;
     public Text placeText;
+    public GameObject virtualCamera;
+    public GameObject virtualCameraOtherRoom;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,8 @@ public class RoomMove : MonoBehaviour
             {
                 StartCoroutine(placeNameCo());
             }
+            virtualCamera.SetActive(false);
+            virtualCameraOtherRoom.SetActive(true);
         }
     }
 
